@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Shweta-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(8, 8, 58);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(6, 6, 102);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(84, 84, 194);
+            font-size: 1.04ram;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 120px 0;
+            align-items: center;
+        }
+
+        .firstSection>div {
+            width: 30%;
+
+
+        }
+
+        .leftSection {
+
+            width: 34px;
+            font-size: 2rem;
+            margin: 40px 0;
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+
+            padding: 12px;
+            background-color: rgb(86, 10, 86);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 90%;
+            margin: 40px 0;
+        }
+
+        .purple {
+            color: rgb(203, 168, 237);
+        }
+
+        .text-gray {
+            color: gray;
+
+        }
+
+        #element {
+            color: rgb(113, 113, 232);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(126, 126, 224);
+            height: 1.2px;
+            margin: 60px 80px;
+
+
+        }
+
+        .secondSection h1 {
+            font-size: 1.2rem;
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 79vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+
+
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            position: relative;
+            width: 23px;
+            top: -32px;
+            left: -9px;
+
+        }
+
+        .vertical-tittle {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 85px;
+            color: gray;
+            width: 150px;
+            font-size: 10px;
+        }
+
+        footer {
+            background-color: rgb(15, 15, 42);
+
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 246px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Shweta's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class="purple">Shweta</span>
+                <div> and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
+
+            </div>
+            <div class="rightSection">
+
+                <img src="pg.png" alt="">
+
+
+
+            </div>
+        </section>
+        <hr>
+
+
+        <section class="secondSection">
+            <span class="text-gray">What i have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="htmllogo.png" alt="">
+                    <div class="vertical-tittle">
+
+                        HTML Developer (2023-2027)
+                    </div>
+
+                    <div class="vertical-desc">
+                        Build responsive, accessible web pages using clean HTML5. Convert UI designs to code, ensure
+                        SEO-friendly structure, and collaborate to deliver user-friendly, cross-browser compatible
+                        websites.
+
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="nodejs.png" alt="">
+                    <div class="vertical-tittle">
+
+                        Node.js Developer (2027-2029)
+                    </div>
+
+                    <div class="vertical-desc">
+                        Develop backend services using Node.js. Build RESTful APIs, handle server-side logic, manage
+                        databases, and ensure scalable, high-performance applications with secure, clean, and
+                        maintainable code.
+
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-tittle">
+
+                        Angular Developer (2029-2031)
+                    </div>
+
+                    <div class="vertical-desc">
+                        Develop dynamic, single-page applications using Angular. Implement components, services, and
+                        routing. Focus on clean architecture, responsive UI, API integration, and delivering
+                        high-performance, scalable web apps
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="javascript.png" alt="">
+                    <div class="vertical-tittle">
+
+                        Javascript Developer (2032-2033)
+                    </div>
+
+                    <div class="vertical-desc">
+                        Build interactive, responsive web interfaces using JavaScript. Implement dynamic features,
+                        handle DOM manipulation, optimize performance, and integrate APIs to enhance user experience
+                        across platforms.
+
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="ui.png" alt="">
+                    <div class="vertical-tittle">
+
+                        UI Developer (2034-2036)
+                    </div>
+
+                    <div class="vertical-desc">
+                        "Design and develop user-friendly interfaces with HTML, CSS, and JavaScript. Focus on
+                        responsiveness, accessibility, cross-browser compatibility, and translating design mockups into
+                        functional web pages.
+
+
+                    </div>
+                </div>
+
+                <div class="vertical">
+
+                </div>
+                <div class="vertical"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class=" footer-first">
+                <h1>
+                    Shweta Developer's Portfolio
+                </h1>
+            </div>
+            <div class=" footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contacts</li>
+                </ul>
+            </div>
+            <div class=" footer-third"></div>
+            <div class="footer-fourth"></div>
+        </div>
+        <div class="footer-rights">
+            copyright&#169;shwetasportfolio.com | All Right Reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', '&amp; Electronics Engineer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
