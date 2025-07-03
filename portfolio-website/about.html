@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT</title>
+    <style>
+      /* Home Section Styling */
+      /* Google Fonts (Add this to <head> of HTML) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+#home {
+  background-color: rgb(50, 50, 114);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.text-content {
+  flex: 1 1 400px;
+  color: #fff;
+  text-align: left;
+  animation: fadeInUp 1s ease forwards;
+}
+
+.text-content h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.text-content h2 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.highlight {
+  color: #333;
+  background-color: #fff;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.image-content {
+  flex: 1 1 250px;
+  display: flex;
+  justify-content: center;
+  animation: fadeIn 1s ease forwards;
+}
+
+.image-content img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .text-content {
+    text-align: center;
+  }
+}
+
+
+
+    </style>
+
+</head>
+<body>
+   <!-- Home Section -->
+    <!-- Home Section -->
+<section id="home">
+  <div class="home-container">
+    <div class="text-content">
+      <h1>Hello, I'm <span class="highlight">Shweta Pal</span></h1>
+      <h2>Frontend Developer & Creative Designer</h2>
+      <p>
+        I build clean, responsive, and user-friendly websites that bring ideas to life.
+        I'm from Ballia, Uttar Pradesh, and I love creating with code and design.
+      </p>
+    </div>
+    <!-- Optional: Profile image -->
+    <div class="image-content">
+      <img src="shweta.jpg" alt="Shweta Pal" />
+    </div>
+  </div>
+</section>
+
+
+
+
+    
+</body>
+</html>
